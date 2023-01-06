@@ -1,0 +1,49 @@
+.p{
+    width: 70%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+.p-browser{
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.p-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+.p-image{
+    width: 100%;
+    transition: all 10s ease;
+}
+.p .p-image:hover{
+    transform: translateY(-100%);
+    scroll-padding: 20px;
+    z-index: -1;
+    
+}
+.project{
+    transition-duration: 10s;
+}
+.project:hover{
+    text-decoration: #ff420f;
+}
+.cycle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px white;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}

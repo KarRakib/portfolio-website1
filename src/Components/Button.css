@@ -1,0 +1,35 @@
+.BTN{
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #323438, -10px -10px 19px #353a3f;
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+    padding: 5px 15px;
+  
+}
+.BTN::after{
+    content: "";
+    position: absolute;
+    transition: var(--transition);
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    opacity: 0;
+    z-index: -1;
+    letter-spacing: 0.25em;
+    
+}
+.BTN:hover{
+    letter-spacing: 0.15em;
+    transition: 0.5s;
+    background: linear-gradient(145deg, #dce0e7, #a7c6e6);
+    color: #FF014F;
+}
+
