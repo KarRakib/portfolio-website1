@@ -5,7 +5,7 @@ import Button from '../../Components/Button';
 
 const About = () => {
     return (
-        <div className='py-7 w-[1200px] lg:w-[1600px] mx-auto  '>
+        <div className='py-7 w-[1200px] lg:w-[1600px] mx-auto text-white '>
             <h3 className='text-4xl font-semibold hover:underline decoration-[#ff004f] underline-offset-8 decoration-4 Transition'> ABOUT ME</h3>
             <h4 className='text-start text-xl my-4'> Hi, This is Kar Rakib</h4>
             <p className='text-start'> A Passionate MERN Stack Developer and dedicated to my work. I worked varies projects with modern technologies like javascript, react, node js, golang.

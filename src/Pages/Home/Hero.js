@@ -30,7 +30,7 @@ const Hero = () => {
     
       </div>
       <div className='w-1/2 px-3 '>
-      <img className='lg:w-2/3 h-[511px] lg:ml-9 rounded-2xl w-full ' src="https://i.ibb.co/s2Kw1ph/1.png" alt="" />
+      <img className='lg:w-2/3 h-[511px] lg:ml-9 rounded-xl w-full ' src="https://i.ibb.co/s2Kw1ph/1.png" alt="" />
       </div>
     </div>
   );

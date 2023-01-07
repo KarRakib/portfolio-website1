@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { authContext } from '../../UserContext/UserContext';
 
 const Navbar = () => {
+    const {user} =useContext(authContext)
     const navItems = <React.Fragment>
 
         <li><Link to='/'> Home </Link> </li>
@@ -9,6 +11,7 @@ const Navbar = () => {
         <li><Link to='/project'> Project </Link> </li>
         <li><Link to='/login'> Log In </Link> </li>
         <li><Link to='/contact'> Contact </Link> </li>
+        {user.name}
     </React.Fragment>
     return (
         <div className="navbar text-white md:w-[1200px] fixed-top mx-auto lg:w-[1600px] ">

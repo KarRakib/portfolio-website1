@@ -4,7 +4,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
-import  { Toaster } from 'react-hot-toast';
+
 
 // Create a client
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App  ">
       <QueryClientProvider client={queryClient}>
-      <Router>  <Toaster/></Router>
+      <Router>  </Router>
       </QueryClientProvider>
      
     </div>
