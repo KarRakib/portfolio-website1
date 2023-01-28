@@ -1,10 +1,13 @@
 .p{
-    width: 70%;
+    width: 80%;
     height: 40vh;
-    margin: 20px 10px;
+    margin: 20px 20px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+}
+.p:hover{
+
 }
 .p-browser{
     height: 20px;
@@ -13,6 +16,7 @@
     align-items: center;
     position: sticky;
     z-index: 2;
+    
 }
 .p-circle{
     width: 6px;
@@ -23,7 +27,7 @@
 }
 .p-image{
     width: 100%;
-    transition: all 10s ease;
+    transition: all 20s ease;
 }
 .p .p-image:hover{
     transform: translateY(-100%);
@@ -32,7 +36,7 @@
     
 }
 .project{
-    transition-duration: 10s;
+    transition-duration: 20s;
 }
 .project:hover{
     text-decoration: #ff420f;

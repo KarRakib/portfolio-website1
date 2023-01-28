@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { authContext } from '../../UserContext/UserContext';
 const Register = () => {
     const {useRegister} = useContext(authContext)
+    const navigate = useNavigate()
     const { register, handleSubmit, watch, formState: { errors },reset  } = useForm();
     const onSubmit = (data )=> {
     // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -12,6 +13,7 @@ const Register = () => {
     .then(result=>{
         const user = result.user;
         toast.success('user success')
+        navigate('/')
         console.log(user);
     } )
        }

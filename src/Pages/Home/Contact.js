@@ -11,6 +11,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        console.log(e.target.value);
 
         emailjs.sendForm('service_153dg77', 'template_6ly1f5r', form.current, '3dtauFC-uDlSVRAX9')
             .then((result) => {
@@ -26,36 +27,36 @@ const Contact = () => {
     };
 
     return (
-        <div className='py-7 w-[1200px] lg:w-[1600px] mx-auto'>
+        <div className='py-7 '>
             <h1 className='md:text-4xl font-semibold text-center text-[#C4CFDE] py-6'> Contact With Me
             </h1>
            
-                <div className='text-[#C4CFDE] w-56 lg:w-[450px] mx-auto'>
+                <div className='text-[#C4CFDE] w-72 lg:w-[450px] lg:mx-auto'>
                     <div className='Card '>
-                        <form className='w-full lg:ml-8' ref={form} onSubmit={sendEmail}>
+                        <form className='w-full  ' ref={form} onSubmit={sendEmail}>
                             <label className="label block">
                                 <span className="label-text block text-[#C4CFDE]">Name</span>
                             </label>
-                            <input className='Input w-72 h-12' type="text" name="user_name" />
+                            <input className='Input w-60 md:w-72 h-12' type="text" name="user_name" />
                             <label className="label">
                                 <span className="label-text text-[#C4CFDE]">Phone</span>
                             </label>
-                            <input className='Input w-72 h-12' type="text" name="user_phone" />
+                            <input className='Input w-60 md:w-72 h-12' type="text" name="user_phone" />
                             <label className="label">
                                 <span className="label-text text-[#C4CFDE]">Email</span>
                             </label>
-                            <input className='Input w-72 h-12' type="email" name="user_email" />
+                            <input className='Input w-60 md:w-72 h-12' type="email" name="user_email" />
                             <label className="label">
                                 <span className="label-text text-[#C4CFDE]">Subject</span>
                             </label>
-                            <input className='Input w-72 h-12' type="text" name="user_subject" />
+                            <input className='Input w-60 md:w-72 h-12' type="text" name="user_subject" />
                             <br />
                             <label className="label">
                                 <span className="label-text text-[#C4CFDE]">Message</span>
                             </label>
-                            <textarea className='Input w-72 h-36' name="message" />
+                            <textarea className='Input w-60 md:w-72 h-36' name="message" />
                             <br />
-                            <div className='flex w-72 justify-center Button items-center text-[#ff013c] '>
+                            <div className='flex w-60 md:w-72 justify-center Button items-center text-[#ff013c] '>
                                 <button className='mr-2'>Send Message</button>
                                 <BsArrowRight className=' ' />
                             </div>

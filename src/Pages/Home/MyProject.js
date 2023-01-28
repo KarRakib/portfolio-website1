@@ -13,7 +13,7 @@ const MyProject = () => {
     return (
         <div className='py-10  md:w-[1200px] lg:w-[1600px] mx-auto'>
             <h1 className='text-4xl text-center font-semibold text-[#C4CFDE]'> My Project </h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 py-8'>
 
                 {
                     projects?.map(project => <Project key={project.id} project={project}></Project>)

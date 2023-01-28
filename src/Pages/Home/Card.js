@@ -5,7 +5,7 @@ const Card = ({ card }) => {
     const { icon, title, des } = card;
     return (
         <div className=' '>
-            <div className=" Card w-96 ">
+            <div className=" Card md:w-96 w-80 ">
                 <div className="">
                     <img src={icon} alt="" />
                     <h2 className="text-2xl font-semibold py-3" >{title}</h2>

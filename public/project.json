@@ -3,40 +3,33 @@
         "id": "1",
         "title": "Business Strategy",
         "des": "I throw myself down among the tall grass  to the earth",
-        "img": "we1.png"
+        "img": "we1.png",
+        "site": "https://assignment-12-34d74.web.app/"
 
     },
     {
         "id": "2",
         "title": "Business Strategy",
         "des": "I throw myself down among the tall grass  to the earth",
-        "icon": ""
+        "img": "https://i.ibb.co/GxK5Hgc/Project1.png",
+        "site": "https://phone-repair-ass-11.web.app/"
 
     },
     {
         "id": "3",
         "title": "Business Strategy",
         "des": "I throw myself down among the tall grass  to the earth",
-        "icon": ""
+        "img": "https://i.ibb.co/yV0SXDX/doctor.jpg",
+        "site": "https://doctor-app-bd718.web.app"
 
     },
     {
         "id": "4",
         "title": "Business Strategy",
         "des": "I throw myself down among the tall grass  to the earth",
-        "icon": ""
-
-    },
-    {
-        "id": "5",
-        "title": "Business Strategy",
-        "des": "I throw myself down among the tall grass  to the earth"
-
-    },
-    {
-        "id": "6",
-        "title": "Business Strategy",
-        "des": "I throw myself down among the tall grass  to the earth"
+        "img": "https://i.ibb.co/L8W0G3N/quiz.jpg",
+        "site": "https://cheerful-peony-f3c990.netlify.app/"
 
     }
+    
 ]
